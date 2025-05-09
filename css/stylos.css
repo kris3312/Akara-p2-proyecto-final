@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+ 
+}
+
+#logo :hover{
+   font-size: 10px;
+}
+.navbar{
+    background-color:rgba(220, 234, 216, 0.753);
+    color: inherit;
+    text-transform: none;
+    
+}
+
+.objetivo:hover{
+    font-size: 27px;
+}
+
+.nav-link:hover{
+    background-color: rgba(78, 90, 81, 0.568);
+ 
+}
+.carrusel img{
+height: 500px;
+object-fit: cover;
+}
+
+
+@media (min-width: 768px) {
+    .w-md-50 {
+      width: 50% !important;
+    }
+  }
+
